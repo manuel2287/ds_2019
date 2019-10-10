@@ -4,15 +4,11 @@ function treeBoxes(urlService, jsonData)
 {
 	var urlService_ = '';
 
-	var blue = '#337ab7',
+	var blue = '',
 		green = '#5cb85c',
 		red = '#bd5734';
 
 	var margin = {
-					top : 0,
-					right : 0,
-					bottom : 100,
-					left : 0
 				 },
     // La altura y el ancho se redefinen posteriormente en función del tamaño del árbol
     // (después de eso se cargan los datos)
